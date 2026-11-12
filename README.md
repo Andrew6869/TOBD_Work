@@ -20,7 +20,6 @@
 
 ## Структура репозитория
 
-```text
 ├── README.md                      # Описание проекта
 ├── requirements.txt               # Зависимости Python
 ├── .gitignore                     # Исключения для Git
