@@ -114,12 +114,19 @@ st.divider()
 # --- H1: Сезонность (месяцы) ---
 st.subheader("H1: Сезонность выручки по месяцам")
 h1_data = retail_f.groupby('Month')['Revenue'].sum().reset_index()
+h1_data = h1_data.sort_values('Month')
+
 fig_h1 = px.bar(
     h1_data, x='Month', y='Revenue',
     title="Выручка по месяцам (Retail)",
     labels={'Month': 'Месяц', 'Revenue': 'Выручка, £'},
-    color='Revenue', color_continuous_scale='Blues'
+    color='Revenue', color_continuous_scale='Blues',
+    text_auto='.2s'
 )
+
+fig_h1.update_xaxes(type='category') 
+
+fig_h1.update_layout(bargap=0.3) # Делаем зазор, чтобы столбец не был слишком толстым
 st.plotly_chart(fig_h1, use_container_width=True)
 
 # --- H2: Кривая Лоренца (Парето) ---
