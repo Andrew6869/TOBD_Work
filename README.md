@@ -47,3 +47,10 @@
    streamlit run app.py
 2. **Статичный HTML-снимок:**
    Скачайте файл **[dashboard.html](./dashboard.html)** и откройте его в браузере. Это сохранённая версия дашборда для быстрого просмотра без запуска Python.
+
+## Ссылки на источники данных:
+
+1.UCI Online Retail II (реляционный, XLSX)
+2.Walmart Sales Dataset (JSON, Kaggle)
+3.Amazon Product Reviews (неструктурированный, CSV, Kaggle)
+4.ЕМИСС/Росстат (иерархический, XML/SDMX, показатель ID 43271)
