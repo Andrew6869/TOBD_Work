@@ -53,4 +53,4 @@
 1. [UCI Online Retail II (реляционный, XLSX)](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 2. [Walmart Sales Dataset (JSON, Kaggle)](https://www.kaggle.com/datasets/yasserh/walmart-dataset)
 3. [Amazon Product Reviews (неструктурированный, CSV, Kaggle)](https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews)
-4. [ЕМИСС/Росстат (иерархический, XML/SDMX, показатель ID 43271)](https://www.fedstat.ru/)
+4. [ЕМИСС/Росстат (иерархический, XML/SDMX, показатель ID 43271 за 2010–2011 гг. — искать вручную в строке поиска по названию «оборот розничной торговли пищевыми продуктами», выгрузка в формате SDMX/XML)](https://www.fedstat.ru/)
