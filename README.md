@@ -48,9 +48,9 @@
 2. **Статичный HTML-снимок:**
    Скачайте файл **[dashboard.html](./dashboard.html)** и откройте его в браузере. Это сохранённая версия дашборда для быстрого просмотра без запуска Python.
 
-## Ссылки на источники данных:
+**Ссылки на источники данных:**
 
-1.UCI Online Retail II (реляционный, XLSX)
-2.Walmart Sales Dataset (JSON, Kaggle)
-3.Amazon Product Reviews (неструктурированный, CSV, Kaggle)
-4.ЕМИСС/Росстат (иерархический, XML/SDMX, показатель ID 43271)
+1. [UCI Online Retail II (реляционный, XLSX)](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
+2. [Walmart Sales Dataset (JSON, Kaggle)](https://www.kaggle.com/datasets/yasserh/walmart-dataset)
+3. [Amazon Product Reviews (неструктурированный, CSV, Kaggle)](https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews)
+4. [ЕМИСС/Росстат (иерархический, XML/SDMX, показатель ID 43271)](https://www.fedstat.ru/)
